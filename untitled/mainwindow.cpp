@@ -69,9 +69,9 @@ void MainWindow::on_pushButton_3_clicked()
 void MainWindow::on_searchbutt_clicked(){
 
 
+    bool q=tabvh.search(ui->searchmat->text());
 
-
-    if(tabvh.search(ui->searchmat->text()) == true){
+    if( q == true){
        // ui->found->setText("found!");
         QMessageBox::information(nullptr,QObject::tr("OK"),
                              QObject::tr("Found ! this Vehicule already exists"),
@@ -82,5 +82,11 @@ void MainWindow::on_searchbutt_clicked(){
                              QObject::tr("Not Found ! this Vehicule does not exist"),
                              QMessageBox::Ok);
     }
+
+}
+
+void MainWindow::on_tributt_clicked()
+{
+    ui->tableaff->setModel(tabvh.sort());
 
 }

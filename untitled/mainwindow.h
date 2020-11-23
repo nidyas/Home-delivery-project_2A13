@@ -24,6 +24,8 @@ private slots:
 
     void on_searchbutt_clicked();
 
+    void on_tributt_clicked();
+
 private:
     Ui::MainWindow *ui;
     Vehicule tabvh;

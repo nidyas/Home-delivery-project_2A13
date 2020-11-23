@@ -22,8 +22,8 @@ public:
     bool supprimer(QString);
     bool modifier(QString, QString matricule,QString model, int capacity);
 
-    bool search(QString matricule);
-
+    bool  search(QString matricule );
+    QSqlQueryModel * sort();
 };
 
 #endif // VEHICULE_H
