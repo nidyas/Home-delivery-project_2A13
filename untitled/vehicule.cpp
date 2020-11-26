@@ -1,7 +1,10 @@
-    #include "vehicule.h"
+#include "vehicule.h"
 #include "QSqlRecord"
 #include<QMessageBox>
 #include<QSqlRecord>
+#include<QPainter>
+#include<QPdfWriter>
+#include<QSystemTrayIcon>
 Vehicule::Vehicule()
 {
 
@@ -88,3 +91,6 @@ QSqlQueryModel * Vehicule::sort(){
 
         return model;
 }
+
+
+

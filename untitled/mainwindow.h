@@ -26,6 +26,8 @@ private slots:
 
     void on_tributt_clicked();
 
+    void on_pushButton_7_clicked();
+
 private:
     Ui::MainWindow *ui;
     Vehicule tabvh;

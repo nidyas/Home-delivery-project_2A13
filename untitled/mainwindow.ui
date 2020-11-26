@@ -46,7 +46,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>0</number>
+       <number>5</number>
       </property>
       <property name="iconSize">
        <size>
@@ -404,6 +404,24 @@
         </property>
         <property name="text">
          <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="tab_11">
+       <attribute name="title">
+        <string>PDF</string>
+       </attribute>
+       <widget class="QPushButton" name="pushButton_7">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>120</y>
+          <width>131</width>
+          <height>28</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>PDF GENERATE</string>
         </property>
        </widget>
       </widget>
