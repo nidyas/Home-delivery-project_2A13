@@ -46,7 +46,7 @@
        <enum>QTabWidget::Rounded</enum>
       </property>
       <property name="currentIndex">
-       <number>3</number>
+       <number>0</number>
       </property>
       <property name="iconSize">
        <size>
@@ -257,7 +257,7 @@
          </rect>
         </property>
         <property name="text">
-         <string>Nouvelle matricule:</string>
+         <string>Nouvelle :</string>
         </property>
        </widget>
        <widget class="QLabel" name="label_19">
@@ -270,7 +270,7 @@
          </rect>
         </property>
         <property name="text">
-         <string>Anicenne matricule:</string>
+         <string>Anicenne :</string>
         </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit_9">
