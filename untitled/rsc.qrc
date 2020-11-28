@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/Capture.PNG</file>
+        <file>img/Undo-512.png</file>
+        <file>img/house.png</file>
+        <file>img/check-mark.png</file>
+        <file>img/jararb.jpg</file>
+        <file>img/Capture copy.png</file>
+        <file>img/unnamed.png</file>
+        <file>img/agence.png</file>
+        <file>img/ajout.png</file>
+        <file>img/car.png</file>
+        <file>img/afficher.png</file>
+        <file>img/mmodi.png</file>
+        <file>img/supp.png</file>
+        <file>img/gen.png</file>
+        <file>img/re.png</file>
+        <file>img/tri.png</file>
+    </qresource>
+</RCC>
