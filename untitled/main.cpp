@@ -9,8 +9,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
     connexion c;
     bool test=c.create_cnx();
-    MainWindow w;
-    w.show();
+
 
 
     if(test){
@@ -24,6 +23,8 @@ int main(int argc, char *argv[])
                             QObject::tr("non connecter"),
                             QMessageBox::Cancel);}
      //qDebug()<<"connexion echouer";
-            return a.exec();
+
+    MainWindow w;
+    w.show();
     return a.exec();
 }
