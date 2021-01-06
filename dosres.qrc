@@ -1,0 +1,36 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>img/afficher.png</file>
+        <file>img/agence.png</file>
+        <file>img/ajout.png</file>
+        <file>img/Capture copy.png</file>
+        <file>img/Capture.PNG</file>
+        <file>img/Capture3.PNG</file>
+        <file>img/car.png</file>
+        <file>img/check-mark.png</file>
+        <file>img/depart copie.PNG</file>
+        <file>img/employe copie.PNG</file>
+        <file>img/gen.png</file>
+        <file>img/gestion.png</file>
+        <file>img/house.png</file>
+        <file>img/jararb.jpg</file>
+        <file>img/mmodi.png</file>
+        <file>img/re.png</file>
+        <file>img/supp.png</file>
+        <file>img/tri.png</file>
+        <file>img/Undo-512.png</file>
+        <file>img/unnamed.png</file>
+        <file>img/menu taille reduit.PNG</file>
+        <file>img/menuPNG.PNG</file>
+        <file>img/menue.jpg</file>
+        <file>img/princ.jpg</file>
+        <file>img/start.PNG</file>
+        <file>img/start2.PNG</file>
+        <file>img/start3.PNG</file>
+        <file>img/loginbut.png</file>
+        <file>img/logbutt.png</file>
+        <file>img/menubaaedlogin.PNG</file>
+        <file>img/empbut.PNG</file>
+        <file>img/vehibut.PNG</file>
+    </qresource>
+</RCC>
