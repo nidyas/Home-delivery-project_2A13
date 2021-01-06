@@ -64,7 +64,7 @@ private slots:
 
     void on_pushButton_58_clicked();
 
-    void on_combomodep_currentTextChanged(const QString &arg1);
+
 
     void on_combomodep_activated(const QString &arg1);
 

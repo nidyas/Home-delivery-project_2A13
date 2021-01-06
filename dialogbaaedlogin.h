@@ -22,6 +22,8 @@ private slots:
 
     void on_pushButton_2_clicked();
 
+    void on_pushButton_4_clicked();
+
 private:
     Ui::Dialogbaaedlogin *ui;
 };

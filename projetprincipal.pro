@@ -1,6 +1,6 @@
 QT       += core gui charts
 QT += sql
-QT       += serialport
+QT       += serialport network
 QT       += core gui printsupport
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -14,15 +14,19 @@ SOURCES += \
     agence.cpp \
     arduino.cpp \
     connexion.cpp \
+    contrat.cpp \
     departement.cpp \
+    dialogamine.cpp \
     dialogbaaedlogin.cpp \
     dialoghedi.cpp \
     dialoglogin.cpp \
     dialogyassine.cpp \
     employe.cpp \
+    mail.cpp \
     main.cpp \
     mainwindow.cpp \
     models.cpp \
+    societe.cpp \
     stat_depart.cpp \
     stat_employee.cpp \
     statayadi.cpp \
@@ -32,20 +36,25 @@ HEADERS += \
     agence.h \
     arduino.h \
     connexion.h \
+    contrat.h \
     departement.h \
+    dialogamine.h \
     dialogbaaedlogin.h \
     dialoghedi.h \
     dialoglogin.h \
     dialogyassine.h \
     employe.h \
+    mail.h \
     mainwindow.h \
     models.h \
+    societe.h \
     stat_depart.h \
     stat_employee.h \
     statayadi.h \
     vehicule.h
 
 FORMS += \
+    dialogamine.ui \
     dialogbaaedlogin.ui \
     dialoghedi.ui \
     dialoglogin.ui \

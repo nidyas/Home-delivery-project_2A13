@@ -3,6 +3,8 @@
 #include"dialoghedi.h"
 #include"dialoglogin.h"
 #include "dialogyassine.h"
+#include "dialogamine.h"
+
 Dialogbaaedlogin::Dialogbaaedlogin(QWidget *parent) :
     QDialog(parent),
     ui(new Ui::Dialogbaaedlogin)
@@ -38,4 +40,13 @@ void Dialogbaaedlogin::on_pushButton_2_clicked()
     Dialogyassine Dy;
     Dy.setModal(true);
     Dy.exec();
+}
+
+void Dialogbaaedlogin::on_pushButton_4_clicked()
+{
+
+    hide();
+    Dialogamine DA;
+    DA.setModal(true);
+    DA.exec();
 }
